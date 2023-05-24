@@ -1,45 +1,49 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
-.header-nav{
-    background-color: #fbfbfd;
-  width: auto;
-  padding: 10px 0px;
+
+.header{
+    height: 90px;
+   
+
 }
 .nav{
-    display: flex;
-  
-  
-   justify-content: space-between;
-    /* font-family: sans-serif; */
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   
-    height: 70px;
+    position: fixed;
+    top: 0px;
+    background-color: #fbfbfd;
+    /* padding: 10px 0px; */
+    border-bottom: 1px solid #eeecf9;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
     align-items: center;
+
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    /* font-family: sans-serif; */
 }
 
 #nav-right{
-    display: flex;
-   flex: 0.5;
-height: 70px;
+   
+    display: flex !important;
+   flex: 0.470;
+font-size: 14px;
 align-items: center;
    position: relative;
-right: 70px;
+   right: 90px;
 
 
 }
-#nav-right .nav-link{
-   font-weight: 400;
-  color: black;
-   font-weight: 500;
 
-}
 #nav-item-login .nav-link{
-    color: #fff;
+    color: #fff !important;
     background-color:#00afcb;
-    padding: 8px 17px;
-  font-weight: 500;
+    padding: 10px 17px;
+    margin-right: 5px;
   border: 1px solid #00000000;
   border-radius: 0.25rem;
   transition: color .15s;
@@ -48,25 +52,19 @@ right: 70px;
 }
 #nav-left{
     position: relative;
-    left: 90px;
-    
+    left: 90px;   
 }
-.navbar-nav{
-    width: 100%;
-    justify-content: space-evenly;
-    flex: 1;
-    display: flex;
-    list-style-type: none;
-}
-#nav-right .nav-link{
-    text-decoration: none;
-    
 
+#nav-right .nav-link{
+    color:#212529;
+    text-decoration: none;
 }
-p{
-    /* background-color: blueviolet; */
+#nav-right .nav-link:hover{
+    color: #007bff;
 }
-#wrapper{
-    position: fixed;
-    width: 100%;
+
+#main{
+    
+    background-color: black;
+    height: 620px;
 }
